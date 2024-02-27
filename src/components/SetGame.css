@@ -1,0 +1,62 @@
+.set-table{
+    margin: 10px;
+}
+
+.setgame-header{
+    width: 100;
+    margin: 0;
+}
+
+.set-table-body-headers{
+    background-color: lightgray;
+    width: min-content;
+}
+
+.set-table-player-name{
+    width: min-content;
+}
+
+.set-table-body-neg{
+    background-color: yellow;
+}
+
+.set-btn-stat-container{
+    flex-direction: row;
+    height: 100%;
+}
+
+.set-btn{
+    flex-grow: 1;
+    background: none;
+    border: none;
+    font-weight: 900;
+    color: black;
+    margin: 0;
+    padding: 0px 5px;
+}
+
+.set-btn:hover{
+    background: rgb(49, 36, 36);
+}
+
+.set-stat{
+    padding: 2px;
+}
+
+.set-table{
+    margin-top: 0;
+    border-collapse: collapse;
+}
+
+.set-table td{
+    border: .5px black solid;
+}
+
+.set-display-main{
+    display: flex;
+}
+
+.set-display-container{
+    display: flex;
+    flex-direction: row;
+}
